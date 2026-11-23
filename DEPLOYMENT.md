@@ -2,6 +2,10 @@
 
 The app is prepared for free PHP hosting with writable persistent storage. The selected InfinityFree account supports PHP 8.4, SQLite3, Intl, GD, and MySQLi.
 
+Live address: https://ember-cafe-finalproject.site.je/
+
+The live domain uses `ember-cafe-finalproject.site.je/htdocs`. The provider restricts PHP file access to each domain's own document root, so the application, production dependencies, environment, and writable database are all deployed there behind the denial rules described below.
+
 ## Standard hosting layout
 
 On a host with a configurable document root, point the website to `public/` and keep `app/`, `vendor/`, `.env`, and `writable/` outside that public directory. Install production dependencies with `composer install --no-dev --optimize-autoloader`, configure `.env`, run migrations and the seeder, and make `writable/` writable by the PHP process.

@@ -2,8 +2,8 @@
 
 IT0049 Midterm Project · CodeIgniter 4
 
-- Live website: https://ember-cafe-midterm.site.je/
-- GitHub: https://github.com/carrilloklyde-a11y/IT0049-MIDTERM
+- Live website: https://ember-cafe-finalproject.site.je/
+- GitHub: https://github.com/carrilloklyde-a11y/IT0049-FINAL-PROJECT
 
 Developed by **Maverick John Klyde L. Carrillo**. This is the complete CodeIgniter café POS, using the Ember theme from the earlier activities. It is a separate project from the Laravel formative assessments.
 
